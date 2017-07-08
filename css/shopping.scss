@@ -75,6 +75,10 @@ header{
         }
     }
     
+    .sp_menu_icon{
+        display: none;
+    }
+    
     @media (min-width: 551px){
         .sp_menu{
             display: none;
@@ -311,6 +315,7 @@ ul{
     zoom: 1;
 }
 
+@media (max-width: 550px){
 .sub_pict{
     width: 40%;
     padding: 15px 3%;
@@ -328,6 +333,24 @@ ul{
     width: 50%;
     float: right;
 }
+}
+
+@media (min-width: 551px){
+    .sub_pict{
+        padding: 10px;
+    }
+    
+    .sub_pict img{
+        display: block;
+        width: 100%;
+    }
+    
+    .sub_text{
+        padding: 0 10px 10px;
+        font-size: 1.2rem;
+    }
+}
+//min-width: 551px
 
 .sub_text p{
     margin: 0;
@@ -595,4 +618,5 @@ footer small{
 
 body{
     background: $base;
+    margin: 0;
 }

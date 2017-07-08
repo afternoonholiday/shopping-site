@@ -41,8 +41,8 @@ header {
     header .sp_menu_icon li a {
       display: block;
       vertical-align: bottom; }
-  header .sp_menu_icon {
-    display: none; }
+    header .sp_menu_icon li .sp_menu_icon ul {
+      display: none; }
   @media (min-width: 551px) {
     header .sp_menu {
       display: none; }
@@ -440,7 +440,6 @@ footer small {
       margin-left: 0; } }
 
 body {
-  background: #f9f8f6;
-  margin: 0; }
+  background: #f9f8f6; }
 
-/*# sourceMappingURL=shopping.css.map */
+/*# sourceMappingURL=shoppng.css.map */
