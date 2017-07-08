@@ -1,0 +1,135 @@
+html {
+  font-size: 62.5%; }
+
+#pank {
+  margin-bottom: 10px;
+  padding: 0 5px 1px;
+  background: #e8e4da;
+  border: solid 3px #e8e4da;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+#pank li {
+  font-size: 1.2rem;
+  display: inline-block;
+  color: #8a8168;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+#pank li a {
+  color: #8a8168;
+  text-decoration: none; }
+
+#pank a:hover {
+  color: #f9f8f6; }
+
+#pank li img {
+  padding-right: 5px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+@media (min-width: 551px) {
+  .sp_category {
+    display: none; } }
+@media (max-width: 550px) {
+  .pc_category {
+    display: none; } }
+.item_list h2 {
+  margin: 15px auto;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #8a8168;
+  font-weight: bold; }
+
+#category_list h2 img {
+  width: 100%;
+  border: 0; }
+
+@media (min-width: 551px) {
+  .sp_recent_products {
+    display: none; }
+
+  .pc_recent_products {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0; } }
+@media (max-width: 550px) {
+  .pc_recent_products {
+    display: none; }
+
+  .sp_recent_products {
+    display: block; } }
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  zoom: 1; }
+
+#watch_items_list li {
+  float: left; }
+
+#category_list li {
+  float: left; }
+
+.item_list li {
+  width: 50%;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+@media (min-width: 551px) {
+  .item_list li {
+    width: 33.3%;
+    list-style: none;
+    margin: 0;
+    padding: 0; } }
+.item_list li a {
+  display: block;
+  padding: 7px;
+  border: 1px solid #f9f8f6;
+  background: #fff; }
+
+a {
+  color: #524b3b;
+  text-decoration: none; }
+
+.item_list li img {
+  display: block;
+  width: 100%; }
+
+.item_name {
+  margin-bottom: 1rem;
+  font-size: 1.2rem; }
+
+.item_price {
+  font-size: 1.2rem; }
+
+.item_price span {
+  margin-right: 5px; }
+
+#page_list_buttons {
+  margin: 15px 0 30px; }
+
+#page_list_buttons li {
+  list-style: none; }
+
+#back_button {
+  float: left; }
+
+#next_button {
+  float: right; }
+
+#page_list_buttons a {
+  display: block;
+  background: #8a8168;
+  color: #fff;
+  padding: 10px 40px;
+  text-align: center; }
+
+/*# sourceMappingURL=list.css.map */
