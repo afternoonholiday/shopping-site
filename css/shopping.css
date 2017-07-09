@@ -21,6 +21,7 @@ header {
     background: #f9f8f6;
     margin: 0;
     padding: 0;
+    border: none;
     z-index: 100; }
     header .sp_menu_li li {
       list-style: none;
@@ -30,9 +31,14 @@ header {
       header .sp_menu_li li a {
         display: block;
         padding: 10px 8px;
-        border-bottom: 1px solid #eee;
         font-size: 14px;
         text-decoration: none; }
+    header .sp_menu_li #menu {
+      display: block;
+      padding: 10px 8px;
+      text-decoration: none; }
+    header .sp_menu_li .sp_menu {
+      text-align: center; }
   header .sp_menu_icon li {
     list-style: none;
     display: block;
@@ -60,7 +66,8 @@ header {
           text-decoration: none;
           font-weight: bold;
           font-size: 14px;
-          float: left; }
+          float: right;
+          clear: left; }
         header .pc_menu_li li a:hover {
           color: #b0b0b0; }
       header .pc_menu_li li.menu_login a {
@@ -160,7 +167,8 @@ dd {
   background: #887f69;
   color: #fff;
   font-size: 1.3rem;
-  padding: 20px 15px; }
+  font-weight: bold;
+  padding: 20px; }
 
 a {
   color: #b7b1a1;
@@ -240,10 +248,14 @@ ul {
 .sub_text p {
   margin: 0; }
 
-.more_button {
-  text-align: left;
-  margin: 20px auto 10px; }
-
+@media (max-width: 550px) {
+  .more_button {
+    text-align: left;
+    margin: 20px auto 10px; } }
+@media (min-width: 551px) {
+  .more_button {
+    margin: 20px;
+    text-align: center; } }
 .more_button a {
   background-color: #8a8168;
   border-radius: 28px;
@@ -411,7 +423,8 @@ footer ul {
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #b0b0b0;
-  background: #f9f8f6; }
+  background: #f9f8f6;
+  max-width: 80%; }
 
 footer li {
   display: inline-block;

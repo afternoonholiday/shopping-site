@@ -45,6 +45,7 @@ header{
         background: $base;
         margin: 0;
         padding: 0;
+        border: none;
         z-index: 100;
         
         li{
@@ -56,10 +57,19 @@ header{
         a{
             display: block;
             padding: 10px 8px;
-            border-bottom: 1px solid #eee;
             font-size: 14px;
             text-decoration: none;
         }
+        }
+        
+        #menu{
+            display: block;
+            padding: 10px 8px;
+            text-decoration: none;
+        }
+        
+        .sp_menu{
+            text-align: center;
         }
     }
     
@@ -102,7 +112,7 @@ header{
                 text-decoration: none;
                 font-weight: bold;
                 font-size: 14px;
-                float: left;
+                float: right;
             }
             
             a:hover{
@@ -251,7 +261,8 @@ dd{
     background: $dark_gray;
     color: #fff;
     font-size: 1.3rem;
-    padding: 20px 15px;
+    font-weight: bold;
+    padding: 20px;
 }
 
 a{
@@ -356,9 +367,18 @@ ul{
     margin: 0;
 }
 
+@media (max-width: 550px){
 .more_button{
     text-align: left;
     margin: 20px auto 10px;
+}
+}
+
+@media (min-width: 551px){
+    .more_button{
+        margin: 20px;
+        text-align: center;
+    }
 }
 
 .more_button a{
@@ -582,6 +602,7 @@ footer ul{
     padding-bottom: 20px;
     border-top: 1px solid $light_gray;
     background: $base;
+    max-width: 80%;
 }
 
 footer li{
